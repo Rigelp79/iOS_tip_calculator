@@ -10,6 +10,7 @@
 		0ED5D5D61DAC0BC200237B5E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5D5D51DAC0BC200237B5E /* main.swift */; };
 		0ED5D5DD1DAC290C00237B5E /* interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5D5DC1DAC290C00237B5E /* interactive.swift */; };
 		0ED5D5DF1DAC295100237B5E /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5D5DE1DAC295100237B5E /* io.swift */; };
+		0ED5D5F81DAD795700237B5E /* calculatetip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5D5F71DAD795700237B5E /* calculatetip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		0ED5D5D51DAC0BC200237B5E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0ED5D5DC1DAC290C00237B5E /* interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interactive.swift; sourceTree = "<group>"; };
 		0ED5D5DE1DAC295100237B5E /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		0ED5D5F71DAD795700237B5E /* calculatetip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatetip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				0ED5D5D51DAC0BC200237B5E /* main.swift */,
 				0ED5D5DC1DAC290C00237B5E /* interactive.swift */,
 				0ED5D5DE1DAC295100237B5E /* io.swift */,
+				0ED5D5F71DAD795700237B5E /* calculatetip.swift */,
 			);
 			path = tip_calculator_iOS;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED5D5F81DAD795700237B5E /* calculatetip.swift in Sources */,
 				0ED5D5DD1DAC290C00237B5E /* interactive.swift in Sources */,
 				0ED5D5DF1DAC295100237B5E /* io.swift in Sources */,
 				0ED5D5D61DAC0BC200237B5E /* main.swift in Sources */,
@@ -258,6 +262,7 @@
 				0ED5D5DB1DAC0BC200237B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
